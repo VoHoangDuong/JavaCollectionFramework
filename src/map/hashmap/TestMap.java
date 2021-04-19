@@ -26,8 +26,7 @@ public class TestMap {
         test.put(30,"Long");
         test.put(35,"Long");
         test.put(12,"Han");
-        for (Integer key: test.keySet()
-             ) {
+        for (Integer key: test.keySet()) {
             String value = test.get(key);
             System.out.println(key + "************" + value);
         }

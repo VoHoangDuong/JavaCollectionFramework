@@ -28,8 +28,7 @@ public class Main {
         students.add(student3);
         students.add(student4);
         students.add(student1);
-        for (Student student: students
-             ) {
+        for (Student student: students) {
             System.out.println(student.toString());
         }
     }
